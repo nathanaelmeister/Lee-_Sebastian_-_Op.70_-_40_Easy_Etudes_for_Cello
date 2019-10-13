@@ -5,4 +5,4 @@
 An anthology of 40 cello études faciles.
 In first position.
 
-typset in lilpond "2.18.2"
+typset in lilypond "2.18.2"
