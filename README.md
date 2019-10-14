@@ -22,4 +22,4 @@ Keys:
 - E♭ major
 - C minor
 
-typset in [lilypond](https://lilypond.org) "2.18.2"
+typset with [Lilypond](http://lilypond.org) "2.18.2"
