@@ -2,7 +2,25 @@
 ## 40 Easy Etudes for Cello
 ### Op.70
 
-An anthology of 40 cello études faciles.
-In first position.
+An anthology of 40 cello études.
 
-typset in lilypond "2.18.2"
+- easy grade.
+- in first position.
+
+Keys:
+
+- C major
+- D minor
+- G major
+- A minor
+- E minor
+- B minor
+- B♭ major
+- A major
+- G minor
+- D major
+- F♯ major
+- E♭ major
+- C minor
+
+typset with: [lilypond](https://lilypond.org) "2.18.2"
