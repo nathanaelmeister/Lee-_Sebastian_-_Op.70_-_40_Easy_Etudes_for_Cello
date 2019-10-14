@@ -1,6 +1,5 @@
 # Sebastian Lee
-## 40 Easy Etudes for Cello
-### Op.70
+## 40 Easy Etudes for Cello; Op.70
 
 An anthology of 40 cello études.
 
@@ -23,4 +22,4 @@ Keys:
 - E♭ major
 - C minor
 
-typset with: [lilypond](https://lilypond.org) "2.18.2"
+typset in [lilypond](https://lilypond.org) "2.18.2"
