@@ -1,5 +1,13 @@
 \version "2.18.2"
 
+#(set-default-paper-size "a4")
+#(set-global-staff-size 24)
+
+\header {
+    composer = "Lee, Sebastion"
+    opus = "Op.70"
+}
+
 celloI = \relative c {
   \clef bass
   \key c \major
@@ -26,7 +34,7 @@ celloI = \relative c {
 
 \score {
   \new StaffGroup = "" \with {
-        instrumentName = \markup { \bold \huge { \larger "2." }}
+        instrumentName = \markup { \bold \huge { \larger "1." }}
       }
   <<
     \new Staff = "celloI" \celloI
