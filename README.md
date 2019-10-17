@@ -22,4 +22,7 @@ An anthology of 40 cello études.
 - E♭ major
 - C minor
 
-typset with: [Lilypond](http://lilypond.org) "2.18.2"; also have a look at: [LilyBin](http://lilybin.com)
+![Preview Nr. 01](https://repository-images.githubusercontent.com/214755480/cd87b480-f13e-11e9-9849-355dcd5b1043)
+
+typset with: [Lilypond](http://lilypond.org) "2.18.2"  
+also have a look at: [LilyBin](http://lilybin.com)
