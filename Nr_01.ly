@@ -20,7 +20,7 @@ celloI = \relative c {
   \tuplet 3/2 4 { c8( b c e g e) } c'4      | %13
   \tuplet 3/2 4 { c,8( b c e f a) } c4      | %14
   \tuplet 3/2 4 { g,8( d' f g f d) } b'4    | %15
-  \tuplet 3/2 4 { c8( g e c g e) } c4 \bar "|." | %16
+  \tuplet 3/2 4 { c8( g e c g e) } c4 \bar "|." %16
 
 }
 
