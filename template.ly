@@ -1,13 +1,5 @@
 \version "2.18.2"
 
-#(set-default-paper-size "a4")
-#(set-global-staff-size 24)
-
-\header {
-    composer = ""
-    opus = ""
-}
-
 celloI = \relative c {
   \clef bass
   \key c \major
