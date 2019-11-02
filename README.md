@@ -31,7 +31,7 @@ While this collection is on growing, it is only providing the single pieces as [
 **PDF** and **MIDI** files are going to be added within the finalization of the collection to prevent a boost of the .git repository.  
 If you want to get **PDF** files beforehand you need to install [lilypond](http://lilypond.org) and compile the *.ly files.
 
-**Here is a short description for a LINUX System:**
+**Here is a short description for a LINUX System from the Command-Line**
 
 ```
 # install lilypond from your repository
