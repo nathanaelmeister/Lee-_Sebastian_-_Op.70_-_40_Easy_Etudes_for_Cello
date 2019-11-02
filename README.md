@@ -36,19 +36,22 @@ If you want to get **PDF** files beforehand you need to install [lilypond](http:
 ```
 # install lilypond from your repository
 # using apt or your apropriate package manager
+
 apt update
 apt install lilypond
 
 # compile input file with lilypond
+
 lilypond filename.ly 
 
 # to batch compile all files in a folder
 # simply run this for-loop from the command-line
+
 for i in *.ly; do lilypond $i;done
 ```
 
 If you want to get **MIDI** files, you need to add it behind the `\layout` blog  
-within the `\score` blog:
+within the `\score` blog like this:
  
 ```
 \score {
