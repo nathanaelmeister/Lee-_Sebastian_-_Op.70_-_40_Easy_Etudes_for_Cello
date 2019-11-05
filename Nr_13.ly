@@ -31,4 +31,7 @@ celloI = \relative c {
     \new Staff = "celloI" \celloI
   >>
   \layout {}
+  \header {
+    composer = "Sebastian Lee"
+  }
 }
