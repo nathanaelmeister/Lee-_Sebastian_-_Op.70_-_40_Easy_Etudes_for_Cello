@@ -27,7 +27,10 @@ An anthology of 40 cello études.
 typset with: [Lilypond](http://lilypond.org) "2.18.2"  
 also have a look at: [LilyBin](http://lilybin.com)
 or get support at the offical IRC on [FreeNode](http://webchat.freenode.net/?channels=lilypond)
+more Scores in the [LilyPond](http://lilypond.org) format can be found on [www.MutopiaProject.org](https://www.mutopiaproject.org)  
+snippets and tweaks can be found in the [The LilyPond Snippet Repository ♪♫](http://lsr.di.unimi.it/LSR/Search) 
 
+______________________________________________________________________________________________________
 
 While this collection is on growing, it is only providing the single pieces as [lilypond](http://lilypond.org) *.ly files.  
 **PDF** and **MIDI** files are going to be added within the finalization of the collection to prevent a boost of the .git repository.  
