@@ -28,7 +28,7 @@ typset with: [Lilypond](http://lilypond.org) "2.18.2"
 also have a look at: [LilyBin](http://lilybin.com)
 or get support at the offical IRC on [FreeNode](http://webchat.freenode.net/?channels=lilypond)
 more Scores in the [LilyPond](http://lilypond.org) format can be found on [www.MutopiaProject.org](https://www.mutopiaproject.org)  
-snippets and tweaks can be found in the [The LilyPond Snippet Repository ♪♫](http://lsr.di.unimi.it/LSR/Search) 
+snippets and tweaks can be found in [The LilyPond Snippet Repository ♪♫](http://lsr.di.unimi.it/LSR/Search) 
 
 ______________________________________________________________________________________________________
 
