@@ -2,12 +2,10 @@
 ## 40 Easy Etudes for Cello; Op.70
 
 An anthology of 40 cello études.
+(complete Collection of first voice)
 
 - easy grade.
 - in first position.
-
-- complete Collection
-- first voice
 
 **Keys:**
 
@@ -29,7 +27,7 @@ An anthology of 40 cello études.
 
 typset with: [Lilypond](http://lilypond.org) "2.18.2"  
 also have a look at: [LilyBin](http://lilybin.com)
-or get support at the offical IRC on [FreeNode](http://webchat.freenode.net/?channels=lilypond)
+or get support at the offical IRC on [FreeNode](http://webchat.freenode.net/?channels=lilypond)  
 more Scores in the [LilyPond](http://lilypond.org) format can be found on [www.MutopiaProject.org](https://www.mutopiaproject.org)  
 snippets and tweaks can be found in [The LilyPond Snippet Repository ♪♫](http://lsr.di.unimi.it/LSR/Search) 
 
