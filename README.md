@@ -6,6 +6,9 @@ An anthology of 40 cello études.
 - easy grade.
 - in first position.
 
+- complete Collection
+- first voice
+
 **Keys:**
 
 - C major
