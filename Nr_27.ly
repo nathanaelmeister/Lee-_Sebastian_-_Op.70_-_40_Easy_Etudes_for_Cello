@@ -11,10 +11,12 @@
       \key a \major
       \time 4/4
 
+      \override TupletBracket.bracket-visibility = ##t
       \tuplet 3/2 4 {
         a8\downbow-1-._\markup \tiny \italic { "leggiero." }
           cis-4-. e-1-. a-0-. cis-2-. b-. a-. gis-. fis-. e-. e-. e-. | %01
         \omit TupletNumber
+        \override TupletBracket.bracket-visibility = #'default
         a,-. cis-. e-. a-. cis-. b-. a-. gis-. fis-. e-. e-. e-.      | %02
         b-. e-. gis-. b-. d-. cis-. b-. gis-. fis-. e-. e-. e-.       | %03
         b-. e-. gis-. b-. d-. cis-. b-. gis-. fis-. e-. e-. e-.       | %04

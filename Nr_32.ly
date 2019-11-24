@@ -11,10 +11,12 @@
       \key es \major
       \time 2/4
 
+      \override TupletBracket.bracket-visibility = ##t
       \tuplet 3/2 4 {
         es8\downbow\mf( d es g bes g) | %01
         es( d es as c as)             | %02
         \omit TupletNumber
+        \override TupletBracket.bracket-visibility = #'default
         d,( f bes d es f)             | %03
         es( f g
       } bes,4)                        | %04

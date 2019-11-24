@@ -11,9 +11,11 @@
       \key bes \major
       \time 3/4
 
+      \override TupletBracket.bracket-visibility = ##t
       \tuplet 3/2 4 {
         g8\downbow\f d' bes g' d bes'~ bes a g | %01
         \omit TupletNumber
+        \override TupletBracket.bracket-visibility = #'default
         g, d' bes g' d bes'~ bes a g           | %02
         a, fis' d a' fis c'~ c bes a           | %03
         a, fis' d a' fis c'~ c bes a           | %04
