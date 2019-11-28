@@ -7,17 +7,10 @@ pagenumcol = \markup {
 copyrightcol = \include "./global-files/copyright.ily"
 
 \paper {
-  ragged-last = ##f
-  system-system-spacing =
-  #'((basic-distance . 17)
-     (minimum-distance . 10)
-     (padding . 1)
-     (stretchability . 60))
   print-page-number = ##t
-  print-first-page-number = ##t
+  print-first-page-number = ##f
   oddHeaderMarkup = \markup \null
   evenHeaderMarkup = \markup \null
   oddFooterMarkup = \markup { \copyrightcol \pagenumcol }
   evenFooterMarkup = \markup { \pagenumcol \copyrightcol }
-
 }
