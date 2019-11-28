@@ -17,7 +17,7 @@
     \line { \vspace #0.2 }
     \fill-line \fontsize #5 { "for Violoncello" }
     \line { \vspace #0.2 }
-    \fill-line \fontsize #2.5 { "(Nathanael Meister)" }
+    \fill-line \fontsize #2 { "(Nathanael Meister)" }
     \line { \vspace #0.5 }
     \fill-line { \postscript #"-20 0 moveto 40 0 rlineto stroke" }
     \line { \vspace #6 }
