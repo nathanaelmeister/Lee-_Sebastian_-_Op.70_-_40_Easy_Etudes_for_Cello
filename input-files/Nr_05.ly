@@ -25,5 +25,6 @@
   \layout {}
   \header {
     composer = "Sebastian Lee"
+    %opus = "Op. 70"
   }
 }
