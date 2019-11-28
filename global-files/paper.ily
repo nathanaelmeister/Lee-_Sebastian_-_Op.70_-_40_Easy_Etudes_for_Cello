@@ -4,6 +4,7 @@ pagenumcol = \markup {
     \fromproperty #'page:page-number-string
   }
 }
+
 copyrightcol = \include "./global-files/copyright.ily"
 
 \paper {
@@ -12,6 +13,16 @@ copyrightcol = \include "./global-files/copyright.ily"
   print-first-page-number = ##f
   oddHeaderMarkup = \markup \null
   evenHeaderMarkup = \markup \null
-  oddFooterMarkup = \markup { \copyrightcol \pagenumcol }
-  evenFooterMarkup = \markup { \pagenumcol \copyrightcol }
+  oddFooterMarkup = \markup { \copyrightcol
+    \on-the-fly #print-page-number-check-first
+    \pagenumcol
+  }
+  evenFooterMarkup = \markup {
+    \on-the-fly #print-page-number-check-first
+    \pagenumcol
+    \copyrightcol
+  }
 }
+
+% credit for the `\on-the-fly #print-page-number-check-first`:
+% https://music.stackexchange.com/a/92463/42816
