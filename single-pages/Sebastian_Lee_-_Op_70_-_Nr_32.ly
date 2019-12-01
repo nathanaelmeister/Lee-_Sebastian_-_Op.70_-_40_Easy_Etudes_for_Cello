@@ -8,5 +8,5 @@ pieceNumber="32"
 \include "../global-files/gitlink.ily"
 \include "../global-files/header.ily"
 
-\include "../input-files/Nr_32.ly"
+\include "../input-files/Nr_32.ily"
 

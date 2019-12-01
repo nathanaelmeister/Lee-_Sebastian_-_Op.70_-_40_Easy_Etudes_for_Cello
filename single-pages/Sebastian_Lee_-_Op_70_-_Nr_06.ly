@@ -8,5 +8,5 @@ pieceNumber="6"
 \include "../global-files/gitlink.ily"
 \include "../global-files/header.ily"
 
-\include "../input-files/Nr_06.ly"
+\include "../input-files/Nr_06.ily"
 

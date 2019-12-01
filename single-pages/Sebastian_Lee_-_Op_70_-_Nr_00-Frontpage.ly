@@ -9,5 +9,5 @@
   tagline = \include "../global-files/copyright.ily"
 }
 
-\include "../input-files/Nr_00-Frontpage.ly"
+\include "../input-files/Nr_00-Frontpage.ily"
 
