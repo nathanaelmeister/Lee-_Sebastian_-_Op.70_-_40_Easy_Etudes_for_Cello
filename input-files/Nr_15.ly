@@ -27,7 +27,7 @@
       fis-4-. b-2( d-0 b-2) fis'-. b,( d b)                  | %13
       fis-.-4 ais-1( cis-4 ais-1) fis'-2-. ais,( cis ais)    | %14
       b-. d( fis-3 d) b'-. d,( fis d)                        | %15
-      b2 r \bar "|."                                           %16
+      b2 r \bar "|."                                         | %16
 
     }
   >>

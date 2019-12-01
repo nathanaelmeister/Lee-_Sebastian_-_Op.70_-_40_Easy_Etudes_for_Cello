@@ -24,33 +24,12 @@
       <f-2 des'-3>2 <es-1 c'-2>                      | %06
 
       %===================================================
-      % this section makes it look like the original,
-      % with two quarter within the half-note chords.
-      % this whole section can be replaced with the
-      % other "| %07" lines but results in a weird spacing
-      % credit: https://music.stackexchange.com/a/92331/42816
-      %{
-      %  \partcombine
-      %  { \partcombineChords  g,4 }
-      %  {
-      %    %\set fingeringOrientations = #'(left)
-      %    <d-0 c'-2>2 }
-
-      %  \partcombine
-      %  { \partcombineChords  g,4 }
-      %  { <f-2 b!-1>2 }
-      %} 
-      %\partcombineAutomatic
-      %===================================================
       % Alternative line - compiles somewhat nicer:
       % credit: https://music.stackexchange.com/a/92315/42816
 
       \set fingeringOrientations = #'(left)
       <\tweak duration-log #4 g, d'-0 c'-2>2
       <\tweak duration-log #4 g f'-2 b-1>            | %07
-
-      % Normal line with no Quarter in half-note chords:
-      %<g, d'-0 c'-2> <g f'-2 b-1>                   | %07
 
       <c,-0 g'-0 es'-1 c'-2>8 g''16( es c g es d c4)
       r\fermata \bar "|."                            | %08

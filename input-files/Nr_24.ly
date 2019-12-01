@@ -32,7 +32,7 @@
       c, es a c d, fis a d            | %19
       g,, g' fis g d g bes, g'        | %20
       g, g' fis g d g bes, g'         | %21
-      g,4 r r2 \bar "|."                %22
+      g,4 r r2 \bar "|."              | %22
 
     }
   >>

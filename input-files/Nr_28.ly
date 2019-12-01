@@ -18,7 +18,7 @@
       fis8 cis''16( bis) cis8 a fis cis16( bis) cis8 a                      | %05
       b8-2 b16( cis) d8 d16( e) fis8-2 fis16( gis) a8 a16( b)               | %06
       cis8-2 cis,16( bis) cis8 a' cis cis,16( bis) cis8 eis-1               | %07
-      fis8-2 cis16( bis) cis8 a fis4 r \bar "|."                              %08
+      fis8-2 cis16( bis) cis8 a fis4 r \bar "|."                            | %08
 
     }
   >>

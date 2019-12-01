@@ -36,7 +36,7 @@
       c, d b d a d            | %22
       g, g' e g d g           | %23
       c, d b d a d            | %24
-      g,4 r r  \bar "|."        %25
+      g,4 r r  \bar "|."      | %25
 
     }
   >>

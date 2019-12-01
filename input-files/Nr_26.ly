@@ -23,7 +23,7 @@
       a c e a c a e c            | %10
       a b c d e d c b            | %11
       a c e a c a e c            | %12
-      a1 \bar "|."                 %13
+      a1 \bar "|."               | %13
 
     }
   >>

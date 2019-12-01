@@ -26,7 +26,7 @@
       b'\p g e c' a e               | %13
       b' g e a, c f                 | %14
       b, e g b a fis                | %15
-      e b g e4 r8 \bar "|."           %16
+      e b g e4 r8 \bar "|."         | %16
 
     }
   >>

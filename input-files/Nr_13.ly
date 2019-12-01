@@ -26,7 +26,7 @@
       e, a c e a e c a              | %12
       e g b e g fis e b             | %13
       e, g b e g fis e b            | %14
-      e,1 \bar "|."                   %15
+      e,1 \bar "|."                 | %15
 
     }
   >>

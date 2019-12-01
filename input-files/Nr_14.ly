@@ -18,7 +18,7 @@
       d d cis b a g fis e                     | %05
       d d cis b a g fis e                     | %06
       d fis a d fis d a fis                   | %07
-      d4 r r2 \bar "|."                         %08
+      d4 r r2 \bar "|."                       | %08
 
     }
   >>

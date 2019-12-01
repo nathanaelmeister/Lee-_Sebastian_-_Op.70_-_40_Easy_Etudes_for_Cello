@@ -1,5 +1,7 @@
 \version "2.18.2"
 
+\include "../global-files/tuplet-bow.ily"
+
 \score {
   \new StaffGroup = "" \with {
     instrumentName = \markup { \bold \huge { \larger "27." }}
@@ -11,12 +13,12 @@
       \key a \major
       \time 4/4
 
-      \override TupletBracket.bracket-visibility = ##t
       \tuplet 3/2 4 {
-        a8\downbow-1-._\markup \tiny \italic { "leggiero." }
-          cis-4-. e-1-. a-0-. cis-2-. b-. a-. gis-. fis-. e-. e-. e-. | %01
+        a8\downbow_1-._\markup \tiny \italic { "leggiero." }
+          cis_4-. e_1-. a-0-. cis-2-. b-. a-. gis-. fis-. e-. e-. e-. | %01
+  
         \omit TupletNumber
-        \override TupletBracket.bracket-visibility = #'default
+        \override TupletBracket.stencil = ##f
         a,-. cis-. e-. a-. cis-. b-. a-. gis-. fis-. e-. e-. e-.      | %02
         b-. e-. gis-. b-. d-. cis-. b-. gis-. fis-. e-. e-. e-.       | %03
         b-. e-. gis-. b-. d-. cis-. b-. gis-. fis-. e-. e-. e-.       | %04
@@ -28,11 +30,13 @@
         a,-. cis-. e-. a-. cis-. b-. a-. gis-. fis-. e-. e-. e-.      | %10
         a,-. e'-. cis-. a-. e'-. cis-. a-. e'-. cis-. a-. e'-. cis-.  | %11
       }
-      a4 r r2 \bar "|."                                                 %12
+      a4 r r2 \bar "|."                                               | %12
 
     }
   >>
-  \layout {}
+  \layout {
+    \printTupletBow
+  }
   \header {
     composer = "Sebastian Lee"
     %opus = "Op. 70"

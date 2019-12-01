@@ -40,7 +40,7 @@
       bes bes a g f es            | %25
       d g f es d c                | %26
       bes a bes a bes a           | %27 
-      bes4 r r  \bar "|."           %28
+      bes4 r r  \bar "|."         | %28
 
     }
   >>

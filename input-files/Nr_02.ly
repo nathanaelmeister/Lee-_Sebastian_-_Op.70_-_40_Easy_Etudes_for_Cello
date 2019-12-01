@@ -12,10 +12,10 @@
       \key c \major
       \time 4/4
 
-      c8\downbow \f e d f e g f d | %01
-      c\p e, d f e g f d          | %02
+      c8\downbow\f e d f e g f d  | %01
+      c e,\p d f e g f d          | %02
       c e'\f d f e g f a          | %03
-      g\p b a c b d c a           | %04
+      g b a c b d c a             | %04
       g b,\p a c b d c a          | %05
       g b' a c b d c a            | %06
       g b c a b\< g a f           | %07

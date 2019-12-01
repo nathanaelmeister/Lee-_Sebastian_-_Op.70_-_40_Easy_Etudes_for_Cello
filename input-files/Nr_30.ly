@@ -21,7 +21,7 @@
       a) b(\f a fis d) g( fis d a) e'( d a fis) b(-2 a fis                         | %09
       d) b'(-2 a fis d) b'( a fis d) b'( a fis d) b'( a fis                        | %10
       d1)~                                                                         | %11
-      d4 r r2 \bar "|."                                                              %12
+      d4 r r2 \bar "|."                                                            | %12
     }
   >>
   \layout {}

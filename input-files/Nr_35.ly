@@ -1,5 +1,7 @@
 \version "2.18.2"
 
+\include "../global-files/tuplet-bow.ily"
+
 \score {
   \new StaffGroup = "" \with {
     instrumentName = \markup { \bold \huge { \larger "35." }}
@@ -11,11 +13,12 @@
       \key g \minor
       \time 4/4
 
-      \override TupletBracket.bracket-visibility = ##t
       \tuplet 3/2 4 {
         g8\downbow\f(-> d') d d d d es(-> d) d d d d | %01
+
         \omit TupletNumber
-        \override TupletBracket.bracket-visibility = #'default
+        \override TupletBracket.stencil = ##f
+
         g(-> d) d d d d bes'(-> d,) d d d d          | %02
         a(-> d) d d d d es(-> d) d d d d             | %03
         fis(-> d) d d d d c'(-> d,) d d d d          | %04
@@ -32,7 +35,9 @@
 
     }
   >>
-  \layout {}
+  \layout {
+    \printTupletBow
+  }
   \header {
     composer = "Sebastian Lee"
     %opus = "Op. 70"

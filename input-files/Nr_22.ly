@@ -23,7 +23,7 @@
       e( cis') cis( b) b( a) a( e) e( fis) fis( e) e( fis) fis( e)    | %09
       a,( cis) cis( b) b( a) a( e) e( fis) fis( e) e( fis) fis( e)    | %10
       a1~                                                             | %11
-      a4 r r2 \bar "|."                                                 %12
+      a4 r r2 \bar "|."                                               | %12
 
     }
   >>

@@ -1,5 +1,7 @@
 \version "2.18.2"
 
+\include "../global-files/tuplet-bow.ily"
+
 \score {
   \new StaffGroup = "" \with {
     instrumentName = \markup { \bold \huge { \larger "32." }}
@@ -11,12 +13,13 @@
       \key es \major
       \time 2/4
 
-      \override TupletBracket.bracket-visibility = ##t
       \tuplet 3/2 4 {
         es8\downbow\mf( d es g bes g) | %01
         es( d es as c as)             | %02
+
         \omit TupletNumber
-        \override TupletBracket.bracket-visibility = #'default
+        \override TupletBracket.stencil = ##f  
+
         d,( f bes d es f)             | %03
         es( f g
       } bes,4)                        | %04
@@ -41,7 +44,9 @@
 
     }
   >>
-  \layout {}
+  \layout {
+    \printTupletBow
+  }
   \header {
     composer = "Sebastian Lee"
     %opus = "Op. 70"
