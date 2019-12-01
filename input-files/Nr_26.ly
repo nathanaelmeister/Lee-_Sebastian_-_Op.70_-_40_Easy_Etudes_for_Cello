@@ -5,7 +5,7 @@
     instrumentName = \markup { \bold \huge { \larger "26." }}
   }
   <<
-    \new Staff = "celloI"
+    \new Staff = "celloI" \with { midiInstrument = #"cello" }
     \relative c {
       \clef bass
       \key a \minor
