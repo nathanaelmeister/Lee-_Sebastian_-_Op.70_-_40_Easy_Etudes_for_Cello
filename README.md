@@ -56,22 +56,12 @@ lilypond filename.ly
 for i in *.ly; do lilypond $i;done
 ```
 
-If you want to get **MIDI** files, you need to add a `\midi {}` blog behind the `\layout {}` blog  
-within the `\score` blog like this:
- 
-```
-\score {
-  \new StaffGroup = "" \with {
-        instrumentName = \markup { \bold \huge { \larger "1." }}
-      }
-  <<
-    \new Staff = "celloI" \celloI
-  >>
-  \layout {}
-  \midi {}
+The same applies for **MIDI** files.  
+The `\midi {}` blog is now added to the input files.  
+The `midi-instrument` is set to **Cello**
 
-  \header {
-    composer = "Sebastian Lee"
-  }
-}
-```
+For MIDI playback on a linux system you could use `timidity` among many others.
+
+`timidity Sebastian_Lee_-_Op_70_-_Nr_{01..40}.midi`  
+
+would start a playback of all 40 etudes.
