@@ -31,13 +31,14 @@
       \tuplet 3/2 4 { d,(\f e f) f f f f( e d) d d d }          | %13
       \tuplet 3/2 4 { g( a bes) bes bes bes bes( a g) g g g }   | %14
       \tuplet 3/2 4 { a( f d) a d f a( g e) a, b cis }          | %15
-      \tuplet 3/2 4 { d( f e) d a f d( f a) d4 } \bar "|."      | %16
+      \tuplet 3/2 4 { d( f e) d a f d( f a) } d4 \bar "|."      | %16
 
     }
   >>
   \layout {
     \printTupletBow
   }
+  \midi {}
   \header {
     composer = "Sebastian Lee"
     %opus = "Op. 70"
