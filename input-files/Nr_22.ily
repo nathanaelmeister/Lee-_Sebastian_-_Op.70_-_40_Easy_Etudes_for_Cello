@@ -12,7 +12,7 @@
       \time 4/4
 
       a16\downbow(_\markup \tiny \italic { "dolce." }
-        cis) cis( b) b( a) a( e) e( cis') cis( b) b( a) a( e)         | %01 
+      cis) cis( b) b( a) a( e) e( cis') cis( b) b( a) a( e)         | %01 
       e( cis') cis( b) b( a) a( b) b( cis) cis( d) d( e) e( fis)      | %02
       e( d') d( cis) cis( b) b( e,) e( d') d( cis) cis( b) b( e,)     | %03
       e( d') d( cis) cis( b) b( a) a( gis) gis( fis) fis( e) fis( e)  | %04

@@ -15,11 +15,11 @@
 
       \tuplet 3/2 4 {
 
-      % move dynamic to the left:
-      \once \override DynamicText.X-offset =
+        % move dynamic to the left:
+        \once \override DynamicText.X-offset =
         #(lambda (grob)
            (- (ly:self-alignment-interface::x-aligned-on-self grob)
-           1.2))
+             1.2))
 
         d8\downbow\mf e fis e d a d e fis e d a | %01
         \omit TupletNumber

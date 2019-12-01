@@ -15,7 +15,7 @@
 
       \tuplet 3/2 4 {
         a8\downbow_1-._\markup \tiny \italic { "leggiero." }
-          cis_4-. e_1-. a-0-. cis-2-. b-. a-. gis-. fis-. e-. e-. e-. | %01
+        cis_4-. e_1-. a-0-. cis-2-. b-. a-. gis-. fis-. e-. e-. e-. | %01
   
         \omit TupletNumber
         \override TupletBracket.stencil = ##f

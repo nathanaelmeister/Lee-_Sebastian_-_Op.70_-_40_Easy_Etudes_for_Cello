@@ -16,8 +16,8 @@
       \tuplet 3/2 4 {
         % move dynamic to the left
         \override DynamicText.X-offset =
-          #(lambda (grob)
-             (- (ly:self-alignment-interface::x-aligned-on-self grob)
+        #(lambda (grob)
+           (- (ly:self-alignment-interface::x-aligned-on-self grob)
              1.2))
 
         fis8\p\downbow(-2 cis-4 fis a fis a) cis( a fis a fis cis)  | %01

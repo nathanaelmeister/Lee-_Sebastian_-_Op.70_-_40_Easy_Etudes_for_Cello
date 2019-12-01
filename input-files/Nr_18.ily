@@ -2,8 +2,8 @@
 
 \score {
   \new StaffGroup = "" \with {
-        instrumentName = \markup { \bold \huge { \larger "18." }}
-      }
+    instrumentName = \markup { \bold \huge { \larger "18." }}
+  }
   <<
     \new Staff = "celloI" \with { midiInstrument = #"cello" }
 
