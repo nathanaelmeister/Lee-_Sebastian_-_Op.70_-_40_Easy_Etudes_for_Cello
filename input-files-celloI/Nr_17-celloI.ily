@@ -3,6 +3,12 @@
   \key d \minor
   \time 4/4
 
+  % move dynamic to the left:
+  \once \override DynamicText.X-offset =
+  #(lambda (grob)
+     (- (ly:self-alignment-interface::x-aligned-on-self grob)
+       1.2))
+
   \tuplet 3/2 4 { d8\downbow\f( e f) f f f f( e d) d d d }  | %01
   \omit TupletNumber
   \override TupletBracket.stencil = ##f

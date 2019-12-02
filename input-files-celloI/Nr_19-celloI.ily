@@ -3,6 +3,12 @@
   \key c \major
   \time 4/4
 
+  % move dynamic to the left:
+  \once \override DynamicText.X-offset =
+  #(lambda (grob)
+     (- (ly:self-alignment-interface::x-aligned-on-self grob)
+       1.2))
+
   \tuplet 3/2 4 {
     c8\downbow\f-. g( f e) d-. c-. c'-. g( f e) d-. c-. | %01
   
