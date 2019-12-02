@@ -7,6 +7,7 @@ pieceNumber="1"
 
 \include "../global-files/gitlink.ily"
 \include "../global-files/header.ily"
+\include "../global-files/tuplet-bow.ily"
 
 \score {
   \new StaffGroup = "" \with {
@@ -18,7 +19,9 @@ pieceNumber="1"
     \include "../input-files-celloI/Nr_01-celloI.ily"
 
   >>
-  \layout {}
+  \layout {
+    \printTupletBow
+  }
   \midi {}
   \header {
     composer = "Sebastian Lee"
