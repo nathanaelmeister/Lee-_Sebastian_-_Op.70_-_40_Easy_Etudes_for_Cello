@@ -23,6 +23,6 @@
   d( f a f a f)            | %18
   d( e f e d a)            | %19
   d( f a f a f)            | %20
-  d4 r r \bar "|."           %21
+  d4 r r \bar "|."         | %21
 
 }
