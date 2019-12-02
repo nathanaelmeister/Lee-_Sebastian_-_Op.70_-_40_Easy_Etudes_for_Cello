@@ -3,14 +3,14 @@
 #(set-default-paper-size "a4")
 #(set-global-staff-size 22)
 
-pieceNumber="25-celloI"
+pieceNumber="25"
 
 \include "../global-files/gitlink.ily"
 \include "../global-files/header.ily"
 
 \score {
   \new StaffGroup = "" \with {
-    instrumentName = \markup { \bold \huge { \larger "25-celloI." }}
+    instrumentName = \markup { \bold \huge { \larger "25." }}
   }
   <<
     \new Staff = "celloI" \with { midiInstrument = #"cello" }
