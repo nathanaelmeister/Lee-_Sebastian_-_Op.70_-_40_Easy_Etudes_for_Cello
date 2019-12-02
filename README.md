@@ -23,7 +23,7 @@ An anthology of 40 cello études.
 - E♭ major
 - C minor
 
-![Preview Nr. 01](https://repository-images.githubusercontent.com/214755480/cd87b480-f13e-11e9-9849-355dcd5b1043)
+![Preview - Sebastian Lee; Op.70; Nr.1](https://repository-images.githubusercontent.com/214755480/31790780-154a-11ea-9335-a4bf88f3bc7b)
 
 typset with: [Lilypond](http://lilypond.org) "2.18.2"  
 also have a look at: [LilyBin](http://lilybin.com)
