@@ -21,7 +21,7 @@
   c,4 r \tuplet 3/2 { c'8( e g)}    | %12
   c,,4\p r \tuplet 3/2 { e'8( g e)} | %13
   c,4 r \tuplet 3/2 { e'8( f a)}    | %14
-  a,4 r \tuplet 3/2 { g'8(\< f d)}  | %15
+  g,4 r \tuplet 3/2 { g'8(\< f d)}  | %15
   <c e >2\f r4 \bar "|."            | %16
 
 }
