@@ -1,0 +1,407 @@
+.
+├── _book
+│   ├── Sebastian_Lee_-_Op_70_-_40_easy_etudes-1.midi
+│   ├── Sebastian_Lee_-_Op_70_-_40_easy_etudes-2.midi
+│   ├── Sebastian_Lee_-_Op_70_-_40_easy_etudes.ly
+│   ├── Sebastian_Lee_-_Op_70_-_40_easy_etudes.midi
+│   ├── Sebastian_Lee_-_Op_70_-_40_easy_etudes.pdf
+│   ├── Sebastian_Lee_-_Op_70.ly
+│   └── Sebastian_Lee_-_Op_70.pdf
+├── _comp-test
+│   ├── _comp-test.pdf
+│   ├── Nr_01.ly
+│   ├── Nr_01.pdf
+│   ├── Nr_02.ly
+│   ├── Nr_02.pdf
+│   ├── Nr_03.ly
+│   ├── Nr_03.pdf
+│   └── _single-pages
+├── file-structure
+├── global-files
+│   ├── copyright.ily
+│   ├── gitlink.ily
+│   ├── header.ily
+│   ├── Nr_00-Frontpage.ily
+│   ├── paper.ily
+│   ├── pdf-header.ily
+│   ├── tuplet-bow.ily
+│   └── tuplet-bow-single.ily
+├── input-files-celloI
+│   ├── Nr_01-celloI.ily
+│   ├── Nr_02-celloI.ily
+│   ├── Nr_03-celloI.ily
+│   ├── Nr_04-celloI.ily
+│   ├── Nr_05-celloI.ily
+│   ├── Nr_06-celloI.ily
+│   ├── Nr_07-celloI.ily
+│   ├── Nr_08-celloI.ily
+│   ├── Nr_09-celloI.ily
+│   ├── Nr_10-celloI.ily
+│   ├── Nr_11-celloI.ily
+│   ├── Nr_12-celloI.ily
+│   ├── Nr_13-celloI.ily
+│   ├── Nr_14-celloI.ily
+│   ├── Nr_15-celloI.ily
+│   ├── Nr_16-celloI.ily
+│   ├── Nr_17-celloI.ily
+│   ├── Nr_18-celloI.ily
+│   ├── Nr_19-celloI.ily
+│   ├── Nr_20-celloI.ily
+│   ├── Nr_21-celloI.ily
+│   ├── Nr_22-celloI.ily
+│   ├── Nr_23-celloI.ily
+│   ├── Nr_24-celloI.ily
+│   ├── Nr_25-celloI.ily
+│   ├── Nr_26-celloI.ily
+│   ├── Nr_27-celloI.ily
+│   ├── Nr_28-celloI.ily
+│   ├── Nr_29-celloI.ily
+│   ├── Nr_30-celloI.ily
+│   ├── Nr_31-celloI.ily
+│   ├── Nr_32-celloI.ily
+│   ├── Nr_33-celloI.ily
+│   ├── Nr_34-celloI.ily
+│   ├── Nr_35-celloI.ily
+│   ├── Nr_36-celloI.ily
+│   ├── Nr_37-celloI.ily
+│   ├── Nr_38-celloI.ily
+│   ├── Nr_39-celloI.ily
+│   ├── Nr_40-celloI.ily
+│   ├── _preview
+│   │   ├── Nr_01.pdf
+│   │   ├── Nr_01.png
+│   │   ├── Nr_01.preview.eps
+│   │   ├── Nr_01.preview.pdf
+│   │   ├── Nr_01.preview.png
+│   │   ├── Nr_02.preview.eps
+│   │   ├── Nr_02.preview.pdf
+│   │   ├── Nr_02.preview.png
+│   │   ├── Nr_03.preview.eps
+│   │   ├── Nr_03.preview.pdf
+│   │   ├── Nr_03.preview.png
+│   │   ├── Nr_04.preview.eps
+│   │   ├── Nr_04.preview.pdf
+│   │   ├── Nr_04.preview.png
+│   │   ├── Nr_05.preview.eps
+│   │   ├── Nr_05.preview.pdf
+│   │   ├── Nr_05.preview.png
+│   │   ├── Nr_06.preview.eps
+│   │   ├── Nr_06.preview.pdf
+│   │   ├── Nr_06.preview.png
+│   │   ├── Nr_07.preview.eps
+│   │   ├── Nr_07.preview.pdf
+│   │   ├── Nr_07.preview.png
+│   │   ├── Nr_08.preview.eps
+│   │   ├── Nr_08.preview.pdf
+│   │   ├── Nr_08.preview.png
+│   │   ├── Nr_09.preview.eps
+│   │   ├── Nr_09.preview.pdf
+│   │   ├── Nr_09.preview.png
+│   │   ├── Nr_10.preview.eps
+│   │   ├── Nr_10.preview.pdf
+│   │   ├── Nr_10.preview.png
+│   │   ├── Nr_11.preview.eps
+│   │   ├── Nr_11.preview.pdf
+│   │   ├── Nr_11.preview.png
+│   │   ├── Nr_12.preview.eps
+│   │   ├── Nr_12.preview.pdf
+│   │   ├── Nr_12.preview.png
+│   │   ├── Nr_13.preview.eps
+│   │   ├── Nr_13.preview.pdf
+│   │   ├── Nr_13.preview.png
+│   │   ├── Nr_14.preview.eps
+│   │   ├── Nr_14.preview.pdf
+│   │   ├── Nr_14.preview.png
+│   │   ├── Nr_15.preview.eps
+│   │   ├── Nr_15.preview.pdf
+│   │   ├── Nr_15.preview.png
+│   │   ├── Nr_16.preview.eps
+│   │   ├── Nr_16.preview.pdf
+│   │   ├── Nr_16.preview.png
+│   │   ├── Nr_17.preview.eps
+│   │   ├── Nr_17.preview.pdf
+│   │   ├── Nr_17.preview.png
+│   │   ├── Nr_18.preview.eps
+│   │   ├── Nr_18.preview.pdf
+│   │   ├── Nr_18.preview.png
+│   │   ├── Nr_19.preview.eps
+│   │   ├── Nr_19.preview.pdf
+│   │   ├── Nr_19.preview.png
+│   │   ├── Nr_20.preview.eps
+│   │   ├── Nr_20.preview.pdf
+│   │   ├── Nr_20.preview.png
+│   │   ├── Nr_21.preview.eps
+│   │   ├── Nr_21.preview.pdf
+│   │   ├── Nr_21.preview.png
+│   │   ├── Nr_22.preview.eps
+│   │   ├── Nr_22.preview.pdf
+│   │   ├── Nr_22.preview.png
+│   │   ├── Nr_23.preview.eps
+│   │   ├── Nr_23.preview.pdf
+│   │   ├── Nr_23.preview.png
+│   │   ├── Nr_24.preview.eps
+│   │   ├── Nr_24.preview.pdf
+│   │   ├── Nr_24.preview.png
+│   │   ├── Nr_25.preview.eps
+│   │   ├── Nr_25.preview.pdf
+│   │   ├── Nr_25.preview.png
+│   │   ├── Nr_26.preview.eps
+│   │   ├── Nr_26.preview.pdf
+│   │   ├── Nr_26.preview.png
+│   │   ├── Nr_27.preview.eps
+│   │   ├── Nr_27.preview.pdf
+│   │   ├── Nr_27.preview.png
+│   │   ├── Nr_28.preview.eps
+│   │   ├── Nr_28.preview.pdf
+│   │   ├── Nr_28.preview.png
+│   │   ├── Nr_29.preview.eps
+│   │   ├── Nr_29.preview.pdf
+│   │   ├── Nr_29.preview.png
+│   │   ├── Nr_30.preview.eps
+│   │   ├── Nr_30.preview.pdf
+│   │   ├── Nr_30.preview.png
+│   │   ├── Nr_31.preview.eps
+│   │   ├── Nr_31.preview.pdf
+│   │   ├── Nr_31.preview.png
+│   │   ├── Nr_32.preview.eps
+│   │   ├── Nr_32.preview.pdf
+│   │   ├── Nr_32.preview.png
+│   │   ├── Nr_33.preview.eps
+│   │   ├── Nr_33.preview.pdf
+│   │   ├── Nr_33.preview.png
+│   │   ├── Nr_34.preview.eps
+│   │   ├── Nr_34.preview.pdf
+│   │   ├── Nr_34.preview.png
+│   │   ├── Nr_35.preview.eps
+│   │   ├── Nr_35.preview.pdf
+│   │   ├── Nr_35.preview.png
+│   │   ├── Nr_36.preview.eps
+│   │   ├── Nr_36.preview.pdf
+│   │   ├── Nr_36.preview.png
+│   │   ├── Nr_37.preview.eps
+│   │   ├── Nr_37.preview.pdf
+│   │   ├── Nr_37.preview.png
+│   │   ├── Nr_38.preview.eps
+│   │   ├── Nr_38.preview.pdf
+│   │   ├── Nr_38.preview.png
+│   │   ├── Nr_39.preview.eps
+│   │   ├── Nr_39.preview.pdf
+│   │   ├── Nr_39.preview.png
+│   │   ├── Nr_40.preview.eps
+│   │   ├── Nr_40.preview.pdf
+│   │   └── Nr_40.preview.png
+│   └── _temp
+│       ├── Nr_01-celloI.ily~
+│       ├── Nr_02-celloI.ily~
+│       ├── Nr_03-celloI.ily~
+│       ├── Nr_04-celloI.ily~
+│       ├── Nr_05-celloI.ily~
+│       ├── Nr_06-celloI.ily~
+│       ├── Nr_07-celloI.ily~
+│       ├── Nr_08-celloI.ily~
+│       ├── Nr_09-celloI.ily~
+│       ├── Nr_10-celloI.ily~
+│       ├── Nr_11-celloI.ily~
+│       ├── Nr_12-celloI.ily~
+│       ├── Nr_13-celloI.ily~
+│       ├── Nr_14-celloI.ily~
+│       ├── Nr_15-celloI.ily~
+│       ├── Nr_16-celloI.ily~
+│       ├── Nr_17-celloI.ily~
+│       ├── Nr_18-celloI.ily~
+│       ├── Nr_19-celloI.ily~
+│       ├── Nr_20-celloI.ily~
+│       ├── Nr_21-celloI.ily~
+│       ├── Nr_22-celloI.ily~
+│       ├── Nr_23-celloI.ily~
+│       ├── Nr_24-celloI.ily~
+│       ├── Nr_25-celloI.ily~
+│       ├── Nr_26-celloI.ily~
+│       ├── Nr_27-celloI.ily~
+│       ├── Nr_28-celloI.ily~
+│       ├── Nr_29-celloI.ily~
+│       ├── Nr_30-celloI.ily~
+│       ├── Nr_31-celloI.ily~
+│       ├── Nr_32-celloI.ily~
+│       ├── Nr_33-celloI.ily~
+│       ├── Nr_34-celloI.ily~
+│       ├── Nr_35-celloI.ily~
+│       ├── Nr_36-celloI.ily~
+│       ├── Nr_37-celloI.ily~
+│       ├── Nr_38-celloI.ily~
+│       ├── Nr_39-celloI.ily~
+│       └── Nr_40-celloI.ily~
+├── input-files-celloII
+│   ├── Nr_01-celloII.ily
+│   └── Nr_02-celloII.ily
+├── _MWE
+│   ├── Nr_01-input.ily
+│   └── Sebastian_Lee_-_Op_70_-_Nr_01.ly
+├── README.md
+├── _scripts
+│   ├── add_opus.sh
+│   ├── extract-relative-loop.sh
+│   ├── extract-relative.sh
+│   ├── make-book.sh
+│   ├── make-single-pages.sh
+│   ├── make-two-systems.sh
+│   └── select-pages.sh
+├── Sebastian_Lee_-_Op_70_-_40_easy_etudes.ly
+├── Sebastian_Lee_-_Op_70_-_40_easy_etudes.pdf
+├── single-pages-celloI
+│   ├── book.pdf
+│   ├── README.md
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_01-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_01-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_01-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_02-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_02-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_02-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_03-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_03-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_03-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_04-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_04-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_04-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_05-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_05-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_05-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_06-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_06-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_06-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_07-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_07-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_07-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_08-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_08-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_08-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_09-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_09-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_09-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_10-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_10-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_10-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_11-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_11-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_11-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_12-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_12-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_12-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_13-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_13-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_13-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_14-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_14-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_14-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_15-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_15-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_15-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_16-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_16-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_16-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_17-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_17-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_17-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_18-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_18-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_18-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_19-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_19-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_19-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_20-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_20-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_20-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_21-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_21-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_21-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_22-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_22-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_22-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_23-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_23-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_23-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_24-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_24-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_24-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_25-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_25-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_25-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_26-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_26-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_26-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_27-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_27-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_27-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_28-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_28-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_28-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_29-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_29-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_29-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_30-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_30-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_30-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_31-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_31-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_31-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_32-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_32-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_32-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_33-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_33-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_33-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_34-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_34-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_34-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_35-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_35-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_35-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_36-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_36-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_36-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_37-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_37-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_37-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_38-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_38-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_38-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_39-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_39-celloI.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_39-celloI.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_40-celloI.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_40-celloI.midi
+│   └── Sebastian_Lee_-_Op_70_-_Nr_40-celloI.pdf
+├── single-pages-celloI_and_II
+│   ├── S_Lee_-_Op_70_-_I_u_II_Nr_01.ly
+│   ├── S_Lee_-_Op_70_-_I_u_II_Nr_01.midi
+│   ├── S_Lee_-_Op_70_-_I_u_II_Nr_01.pdf
+│   ├── S_Lee_-_Op_70_-_I_u_II_Nr_02.ly
+│   ├── S_Lee_-_Op_70_-_I_u_II_Nr_02.midi
+│   └── S_Lee_-_Op_70_-_I_u_II_Nr_02.pdf
+├── single-pages-celloII
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_01-celloII.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_01-celloII.midi
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_01-celloII.pdf
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_02-celloII.ly
+│   ├── Sebastian_Lee_-_Op_70_-_Nr_02-celloII.midi
+│   └── Sebastian_Lee_-_Op_70_-_Nr_02-celloII.pdf
+├── _templates
+│   ├── header.ily
+│   ├── header-template.ily
+│   ├── score-template.ly
+│   └── tagged-header.ily
+├── _test
+│   ├── color.ly
+│   ├── color.pdf
+│   ├── fingering_orientation.ly
+│   ├── fingering_orientation.pdf
+│   ├── test.ly
+│   ├── test.pdf
+│   ├── tie.ly
+│   └── tie.pdf
+└── _WD
+    ├── infile.ily~
+    ├── templ-1.ily
+    └── templ-2.ily
+
+16 directories, 388 files
