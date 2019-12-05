@@ -28,7 +28,13 @@ pieceNumber="3"
     \new Staff = "celloII" \with { midiInstrument = #"cello" }
     \include "../input-files-celloII/Nr_03-celloII.ily"
   >>
-  \layout {}
+  \layout {
+    \context {
+      \Score
+      \override StaffGrouper.staff-staff-spacing.padding = #4
+      \override StaffGrouper.staff-staff-spacing.basic-distance = #6
+    }
+  }
   \midi {}
   \header {
     composer = "Sebastian Lee"

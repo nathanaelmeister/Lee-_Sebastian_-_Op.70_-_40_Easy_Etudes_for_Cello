@@ -30,6 +30,11 @@ pieceNumber="1"
   >>
   \layout {
     \printTupletBow
+    \context {
+      \Score
+      \override StaffGrouper.staff-staff-spacing.padding = #4
+      \override StaffGrouper.staff-staff-spacing.basic-distance = #6
+    }
   }
   \midi {}
   \header {
