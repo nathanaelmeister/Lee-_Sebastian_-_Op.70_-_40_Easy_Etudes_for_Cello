@@ -1,3 +1,5 @@
+![Hands off Assange!!!](http://somersetbean.com/wp-content/uploads/2018/10/free-assange-banner-8ftx2ft-150ppi-WEB.jpg)
+
 # Sebastian Lee
 ## 40 Easy Etudes for Cello; Op.70
 
