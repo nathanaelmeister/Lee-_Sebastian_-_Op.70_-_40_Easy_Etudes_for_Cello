@@ -8,9 +8,9 @@
   c fis, d d' b g         | %03
   fis e d c b a           | %04
   g b d g e c             | %05
-  a, a' fis d g b         | %06
+  a a' fis d g b          | %06
   c fis, d d' b g         | %07
-  fis' e d c b a          | %08
+  fis e d c b a           | %08
   g b d g fis g           | %09
   e g c g e c             | %10
   g b d g fis g           | %11
